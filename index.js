@@ -49,6 +49,7 @@ app.post('/', (req, res, next) => {
     transporter.sendMail(body, (err, result) => {
         console.log('Sending Mail')
         if (err) {
+            console.log("#####there was an error########");
             console.log(err);
             res.status(401).send({ message: 'There was an error' })
             return false
