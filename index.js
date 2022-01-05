@@ -40,8 +40,8 @@ app.post('/', (req, res, next) => {
         host: 'smtp.gmail.com',
         port: 465,
         auth: {
-            user: 'mymailer2377@gmail.com',
-            pass: 'icui4cumise7'
+            user: 'havenhomegolendoodlepups.com@gmail.com',
+            pass: 'Havenhomegoldendoodlepups2021'
         }
     })
 
