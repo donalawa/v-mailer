@@ -40,11 +40,10 @@ app.post('/', (req, res, next) => {
         host: 'smtp.gmail.com',
         port: 465,
         auth: {
-            user: 'havenhomegolendoodlepups.com@gmail.com',
-            pass: 'Havenhomegoldendoodlepups2021'
+            user: 'mymailer2377@gmail.com',
+            pass: 'icui4cumise7'
         }
     })
-
 
     transporter.sendMail(body, (err, result) => {
         console.log('Sending Mail')
