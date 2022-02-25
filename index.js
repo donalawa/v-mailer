@@ -41,9 +41,12 @@ app.post('/', (req, res, next) => {
         port: 465,
         auth: {
             user: 'mymailer2377@gmail.com',
-            pass: 'icui4cumiSE7'
+            pass: 'icui4cumiSE$7'
         }
     })
+
+
+    // ITS NOT UP TO DATE
 
     transporter.sendMail(body, (err, result) => {
         console.log('Sending Mail')
