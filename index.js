@@ -34,7 +34,7 @@ app.post('/', (req, res, next) => {
         subject: `${name}`,
         html: `<div><h3 style="color: green; text-align: center">New Contact Submited</h3><p> <span style='font-weight: bold'> FirstName: </span>  ${name} <br/> <span style='font-weight: bold'>Address:</span>  ${address} <br/> <span style='font-weight: bold'>Phone:</span>  ${phone} <br/> <span style='font-weight: bold'>PuppyName:</span>  ${puppyName} <br/> <span style='font-weight: bold'>Email:</span>  ${email} <br/> <span style='font-weight: bold'>Message:</span> ${message}</p></div>`
     }
-
+    // icui4CUMISE$$7
     const transporter = mailer.createTransport({
         secure: true,
         host: 'smtp.gmail.com',
