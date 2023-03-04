@@ -38,11 +38,11 @@ app.post('/', (req, res, next) => {
     // icui4CUMISE$$7
     const transporter = mailer.createTransport({
         secure: true,
-        host: 'smtp.titan.email',
+        host: 'mail.xclusivedirectcars.com',
         port: 465,
         // secureConnection: false,
         auth: {
-            user: 'mymailer2377@crittersdeliveryagency.com',
+            user: 'mymailer2377@xclusivedirectcars.com',
             pass: 'icui4cumise7'    
         }
     })
@@ -66,7 +66,7 @@ app.post('/', (req, res, next) => {
     })
 })
 
-app.listen(process.env.PORT || 4000, () => {
+app.listen(4000, () => {
     console.log('Server Running')
 })
 
