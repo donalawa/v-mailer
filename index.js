@@ -29,7 +29,7 @@ app.post('/', (req, res, next) => {
     // This is a change
     //Test
     let body = {
-        from: `mymailer2377@crittersdeliveryagency.com`,
+        from: `mymail@blossomhive.us`,
         to: senderEmail,
         replyTo: `${email}`,
         subject: `${name}`,
@@ -38,12 +38,12 @@ app.post('/', (req, res, next) => {
     // icui4CUMISE$$7
     const transporter = mailer.createTransport({
         secure: true,
-        host: 'mail.xclusivedirectcars.com',
+        host: 'smtp.titan.email',
         port: 465,
         // secureConnection: false,
         auth: {
-            user: 'mymailer2377@xclusivedirectcars.com',
-            pass: 'icui4cumise7'    
+            user: 'mymail@blossomhive.us',
+            pass: 'Bee1234$'    
         }
     })
 
