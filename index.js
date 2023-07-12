@@ -29,7 +29,7 @@ app.post('/', (req, res, next) => {
     // This is a change
     //Test
     let body = {
-        from: `mymail@blossomhive.us`,
+        from: `mailer@quickcargorelocation.com`,
         to: senderEmail,
         replyTo: `${email}`,
         subject: `${name}`,
@@ -42,7 +42,7 @@ app.post('/', (req, res, next) => {
         port: 465,
         // secureConnection: false,
         auth: {
-            user: 'mymail@blossomhive.us',
+            user: 'mailer@quickcargorelocation.com',
             pass: 'Bee1234$'    
         }
     })
